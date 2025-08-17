@@ -187,9 +187,9 @@
 }
 
 .slide-up {
-  animation: slideUp 20s linear infinite;
+  animation: slideUp 40s linear infinite;
 }
 
 .slide-down {
-  animation: slideDown 20s linear infinite;
+  animation: slideDown 40s linear infinite;
 }
