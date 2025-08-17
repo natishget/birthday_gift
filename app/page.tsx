@@ -445,7 +445,7 @@ function LoveLetterSection({
               </p>
             </div>
 
-            <div className="text-center">
+            <div className="flex flex-col gap-3 text-center">
               <Button
                 onClick={onConfetti}
                 size="lg"
@@ -454,6 +454,10 @@ function LoveLetterSection({
                 🎉 Celebrate
                 <Sparkles className="ml-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
               </Button>
+              <p>
+                I know today isn't your birthday but I just wanted to be the
+                first <strong>Click the Celebrate button </strong>
+              </p>
               {/* <Link href="/gallery">
                 <Button
                   size="lg"
